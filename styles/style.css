@@ -1,0 +1,60 @@
+/* Reset some defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header and Navigation */
+header {
+    display: grid;
+    grid-template-columns: 200px auto;
+    background-color: #ffffff;
+    padding: 20px 50px;
+    border-bottom: 1px solid #e0e0e0;
+    align-items: center;
+}
+
+/* Logo */
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo {
+    width: 170px;
+    transition: transform 0.3s ease;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0;
+}
+
+/* Navigation Links */
+nav a {
+    text-decoration: none;
+    color: #333333;
+    padding: 50px 50px;
+    font-weight: 400;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #666666;
+}
+
+/* Current page indicator */
+nav a.current {
+    color: #000000;
+    font-weight: 500;
+}
