@@ -125,6 +125,16 @@ button:hover span:after {
   right: 0;
 }
 
+#projects{
+    padding-top: 150px;
+    font-weight: 600
+}
+
+#projects p {
+    text-align: center;
+    font-size: 40px;
+}
+
 footer{
     background-color: white;
     padding: 25px 20px;
