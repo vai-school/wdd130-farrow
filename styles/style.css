@@ -31,6 +31,10 @@ header {
     transition: transform 0.3s ease;
 }
 
+#logo_link:hover{
+    scale: 1.2;
+}
+
 /* Navigation */
 nav {
     display: flex;
@@ -46,16 +50,21 @@ nav a {
     padding: 20px 20px;
     font-weight: 400;
     font-size: 17px;
-    transition: color 0.3s ease;
+    border: 4px solid royalblue;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
 }
 
 nav a:hover {
-    color: #666666;
+    background-color: royalblue;
+    color: #ffffff;
+    scale: 1.1;
 }
 
 /* Current page indicator */
 nav a.current {
-    color: #000000;
+    color: gray;
     font-weight: 500;
 }
 
