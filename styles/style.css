@@ -228,3 +228,32 @@ footer p{
     padding: 20px;
     font-size: 15px;
 }
+
+/*-----Projects CSS-----*/
+.projects{
+    display: flex;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.projects img{
+    width: 30%;
+    margin: 50px;
+}
+h1{
+    text-align: center;
+    margin: 50px;
+}
+h2{
+    margin: 50px;
+    margin-left: 80px;
+    font-size: 40px;
+}
+ul{
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+li{
+    margin: 10px;
+}
