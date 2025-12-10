@@ -279,5 +279,6 @@ li{
 }
 
 .me button{
-    margin: 0 auto 15px;
+    display: block;
+    margin: 20px auto;
 }
