@@ -261,4 +261,5 @@ li{
 /* -----About Me----- */
 .aboutme img{
     max-width: 60%;
+    justify-items: center;
 }
