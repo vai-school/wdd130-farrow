@@ -257,3 +257,8 @@ ul{
 li{
     margin: 10px;
 }
+
+/* -----About Me----- */
+.aboutme image{
+    max-width: 60%;
+}
