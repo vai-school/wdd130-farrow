@@ -263,10 +263,11 @@ li{
     width: 90%;
     max-width: 500px;
     display: block;
-    margin: 0 auto 10px;
+    margin: 0 auto 15px;
 }
 
 .me p{
     text-align: center;
-    margin: 0 auto 10p;
+    margin: 0 auto 15p;
+    max-width: 700px;
 }
