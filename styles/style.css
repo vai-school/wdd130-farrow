@@ -266,9 +266,17 @@ li{
     margin: 0 auto 25px;
 }
 
+.me h2{
+    margin: 0 auto 15px;
+}
+
 .me p{
     text-align: center;
     margin: 0 auto 15px;
     max-width: 700px;
 
+}
+
+.me button{
+    margin: 0 auto 15px;
 }
